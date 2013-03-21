@@ -14,14 +14,26 @@ Each of these samples implements the same basic app, a simple Account browser th
 
 Simple Account CRUD from Visualforce with ForceTK. This approach consumes API calls in your org, but is easier to setup than the RemoteTK option.
 
-You will need to upload resources.zip as a static resource.
+You can install an [unmanaged package containing both Visualforce Sample apps](https://login.salesforce.com/packaging/installPackage.apexp?p0=04ti0000000UHfa). The package includes two Force.com apps. Selecting either of them from the app menu will take you straight to the sample page.
+
+If you prefer, you can clone this git repository and upload the following files to an org:
+
+* [resources.zip](https://github.com/developerforce/Backbone.Force-Samples/blob/master/resources.zip) - Static Resource
+* [SimpleAccountForceTK.page](https://github.com/developerforce/Backbone.Force-Samples/blob/master/SimpleAccountForceTK.page) - Visualforce Page
 
 ### SimpleAccountRemoteTK.page
 
 Simple Account CRUD from Visualforce with RemoteTK. This approach uses [JavaScript Remoting](http://www.salesforce.com/us/developer/docs/pages/Content/pages_js_remoting.htm) and requires a Visualforce Component and Apex Class as support, but does not consume API calls.
 
-As well as uploading resources.zip as a static resource, you will need to upload [RemoteTKController.cls](https://github.com/developerforce/Force.com-JavaScript-REST-Toolkit/blob/master/RemoteTKController.cls) and [RemoteTK.component](https://github.com/developerforce/Force.com-JavaScript-REST-Toolkit/blob/master/RemoteTK.component) (from the [Force.com JavaScript REST Toolkit](https://github.com/developerforce/Force.com-JavaScript-REST-Toolkit)) to your org as an Apex Class and Visualforce Component respectively.
+As mentioned above, you can install an [unmanaged package containing both Visualforce Sample apps](https://login.salesforce.com/packaging/installPackage.apexp?p0=04ti0000000UHfa).page, or, if you prefer, you can clone this git repository and upload the following files to an org:
 
+* [resources.zip](https://github.com/developerforce/Backbone.Force-Samples/blob/master/resources.zip) - Static Resource
+* [SimpleAccountRemoteTK.page](https://github.com/developerforce/Backbone.Force-Samples/blob/master/SimpleAccountRemoteTK.page) - Visualforce Page
+
+You will also need the following files from the [Force.com JavaScript REST Toolkit](https://github.com/developerforce/Force.com-JavaScript-REST-Toolkit).
+
+* [RemoteTKController.cls](https://github.com/developerforce/Force.com-JavaScript-REST-Toolkit/blob/master/RemoteTKController.cls) - Apex Class
+* [RemoteTK.component](https://github.com/developerforce/Force.com-JavaScript-REST-Toolkit/blob/master/RemoteTK.component) - Visualforce Component
 
 ### SimpleAccountWebApp.html
 
