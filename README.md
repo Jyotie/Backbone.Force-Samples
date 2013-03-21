@@ -8,7 +8,13 @@ The apps use [backbone.force.js](https://github.com/metadaddy-sfdc/Backbone.Forc
 Simple Account Samples
 ----------------------
 
-Each of these samples implements the same basic app, a simple Account browser that lists all the Account records that you are able to read. You can add a new account, click an existing account to view and modify its Name and Industry fields, and remove Accounts.
+Each of these samples implements the same basic app, a simple Account browser that lists all the Account records that you are able to read.
+
+![Main Page](http://developerforce.github.com/Backbone.Force-Samples/main-page.png)
+
+You can add a new account, click an existing account to view and modify its Name and Industry fields, and remove Accounts.
+
+![Detail Page](http://developerforce.github.com/Backbone.Force-Samples/detail-page.png)
 
 ### SimpleAccountForceTK.page
 
