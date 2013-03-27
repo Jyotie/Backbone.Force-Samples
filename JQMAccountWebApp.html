@@ -119,12 +119,9 @@
 
     // OAuth Configuration
     var loginUrl    = 'https://login.salesforce.com/';
-    // var clientId    = '3MVG9y6x0357HleczgGPFxcVeCKR0om96K3nIcs9I1jVPuRc3EXHHPPCLHsvAuTLuWl2Zsyq7ag==';
-    // var redirectUri = 'https://fast-wave-7789.herokuapp.com/oauthcallback.html';
-    // var proxyUrl    = 'https://fast-wave-7789.herokuapp.com/proxy.php?mode=native';
-    var clientId    = '3MVG9y6x0357HleczgGPFxcVeCHKhb8ATnK4.sJJ4MTM66fM1NngSidBXSXkN280MxSvSZN7jD6JuJjly1Yta';
-    var redirectUri = 'https://localhost/~ppatterson/backbone/oauthcallback.html';
-    var proxyUrl    = 'https://localhost/~ppatterson/backbone/proxy.php?mode=native';
+    var clientId    = 'YOUR_REMOTE_ACCESS_APP_CLIENT_ID';
+    var redirectUri = 'https://YOUR_WEB_APP_HOST_AND_DIRECTORY/oauthcallback.html';
+    var proxyUrl    = 'https://YOUR_WEB_APP_HOST_AND_DIRECTORY/proxy.php?mode=native';
 
     var client = new forcetk.Client(clientId, loginUrl, proxyUrl);
 
