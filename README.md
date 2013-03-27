@@ -50,7 +50,7 @@ you will also need the following files from the [Force.com JavaScript REST Toolk
 
 ### JQMAccountWebApp.html
 
-Simple Account CRUD from a web page outside Force.com - e.g. Heroku, or an on-premise system. You can [try it out on Heroku](https://fast-wave-7789.herokuapp.com/JQMAccountWebApp.html); log in with credentials for any org that has access to Accounts (e.g. Developer Edition, Sales or Service Cloud). We strongly recommend you do NOT test this app on production data!
+Simple Account CRUD from a web page outside Force.com - e.g. Heroku, or an on-premise system. You can [try it out on Heroku](https://backbone-force-samples.herokuapp.com/JQMAccountWebApp.html); log in with credentials for any org that has access to Accounts (e.g. Developer Edition, Sales or Service Cloud). We strongly recommend you do NOT test this app on production data!
 
 * [JQMAccountWebApp.html](https://github.com/developerforce/Backbone.Force-Samples/blob/master/JQMAccountWebApp.html) - Visualforce Page
 
@@ -82,7 +82,7 @@ As with the jQuery Mobile sample above, you will need the [RemoteTK.component](h
 
 ### BootstrapAccountWebApp.html
 
-Simple Account CRUD from a web page outside Force.com. [Try it out on Heroku](https://fast-wave-7789.herokuapp.com/BootstrapAccountWebApp.html).
+Simple Account CRUD from a web page outside Force.com. [Try it out on Heroku](https://backbone-force-samples.herokuapp.com/BootstrapAccountWebApp.html).
 
 * [JQMAccountWebApp.html](https://github.com/developerforce/Backbone.Force-Samples/blob/master/JQMAccountWebApp.html) - Visualforce Page
 
